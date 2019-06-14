@@ -2506,3 +2506,1447 @@
 06/12/2019 03:23:51 PM - Util - INFO:  ### VERIFICATION CONTAINS !!!
 06/12/2019 03:23:51 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
 06/12/2019 03:23:51 PM - TestStatus - INFO: Test Create Master and Branch Vendor ### TEST SUCCESSFUL
+06/13/2019 09:11:38 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 09:11:38 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 09:11:38 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 09:11:38 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 09:11:38 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 09:11:39 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 09:11:39 AM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/13/2019 09:11:39 AM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/13/2019 09:11:39 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+06/13/2019 09:11:39 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 09:11:39 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 09:11:39 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 09:11:39 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 09:11:39 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 09:11:40 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 09:11:40 AM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/13/2019 09:11:40 AM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/13/2019 09:11:40 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 09:11:40 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+
+06/13/2019 09:11:41 AM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/13/2019 09:11:41 AM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/13/2019 09:11:41 AM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/13/2019 09:11:43 AM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/13/2019 09:11:45 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 09:11:45 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 09:11:45 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/13/2019 09:11:47 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 09:11:48 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 09:11:48 AM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/13/2019 09:11:48 AM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/13/2019 09:11:48 AM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/13/2019 09:11:50 AM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 09:11:50 AM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 09:11:51 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/13/2019 09:11:51 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/13/2019 09:11:51 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/13/2019 09:11:51 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/13/2019 09:11:51 AM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/13/2019 09:11:53 AM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/13/2019 09:11:53 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/13/2019 09:11:53 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$0 and  locator_type: id
+06/13/2019 09:11:53 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$0 locator type: id
+06/13/2019 09:11:53 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 09:11:54 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 09:11:54 AM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/13/2019 09:11:56 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 09:11:56 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 09:11:56 AM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/13/2019 09:11:56 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/13/2019 09:11:56 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 09:11:56 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 09:11:56 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 09:11:56 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 09:11:56 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 09:11:57 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 09:11:57 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 09:11:57 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 09:11:57 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 09:11:58 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 09:11:58 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 09:11:58 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 09:11:59 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 09:11:59 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 09:11:59 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 09:12:00 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:12:00 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:12:00 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:12:00 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:12:00 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:12:02 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:12:03 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:12:03 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:12:03 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:12:03 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:12:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:12:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:12:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:12:05 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:12:05 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:12:07 AM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/13/2019 09:12:07 AM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/13/2019 09:12:07 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/13/2019 09:12:07 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/13/2019 09:12:07 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/13/2019 09:12:07 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/13/2019 09:12:08 AM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/13/2019 09:12:08 AM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/13/2019 09:12:09 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/13/2019 09:12:09 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/13/2019 09:12:09 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 09:12:09 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 09:12:09 AM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 09:12:09 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 09:12:09 AM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 09:12:10 AM - LocationPage - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 09:12:10 AM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/13/2019 09:12:23 AM - LocationPage - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id, 'ptModTable_')]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/13/2019 09:12:23 AM - LocationPage - INFO: Element NOT present with locator: //div[contains(@id, 'ptModTable_')] and with locator type: xpath
+06/13/2019 09:12:23 AM - LocationPage - INFO: Element Found with locator: //a//span[contains(text(), 'ummary')] and  locator_type: xpath
+06/13/2019 09:12:23 AM - LocationPage - INFO: Clicked on element with locator: //a//span[contains(text(), 'ummary')] locator type: xpath
+06/13/2019 09:12:23 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 09:12:23 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 09:12:23 AM - SummaryPage - INFO: Element Found with locator: pthdr2navbar and  locator_type: id
+06/13/2019 09:12:23 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2navbar locator type: id
+06/13/2019 09:12:23 AM - Util - INFO: Wait :: '2' second(s) for the menu window to open.
+06/13/2019 09:12:25 AM - Util - INFO: Wait :: '2' second(s) for the Navigator button to be visible.
+06/13/2019 09:12:27 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 09:12:27 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 09:12:27 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 09:12:29 AM - Util - INFO: Wait :: '2' second(s) for the Supplier link to be visible.
+06/13/2019 09:12:31 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 09:12:31 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 09:12:32 AM - Util - INFO: Wait :: '2' second(s) for the 'Find Existing Value' page to open.
+06/13/2019 09:12:34 AM - FindExistingValuePage - INFO: Element Found with locator: VENDOR_AP_VW_VENDOR_ID and  locator_type: id
+06/13/2019 09:12:34 AM - FindExistingValuePage - INFO: Sent data on element with locator: VENDOR_AP_VW_VENDOR_ID locator type: id
+06/13/2019 09:12:34 AM - FindExistingValuePage - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 09:12:34 AM - FindExistingValuePage - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 09:12:35 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 09:12:35 AM - SummaryPage - INFO: Element present with locator: //span[@id='VENDOR_VENDOR_ID'] and with locator type: xpath
+06/13/2019 09:12:35 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Created Domestic Master Vendor.
+06/13/2019 09:12:35 AM - SummaryPage - INFO: Element Found with locator: pthdr2ActionList and  locator_type: id
+06/13/2019 09:12:35 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2ActionList locator type: id
+06/13/2019 09:12:35 AM - SummaryPage - INFO: Element Found with locator: pthdr2signout and  locator_type: id
+06/13/2019 09:12:35 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2signout locator type: id
+06/13/2019 09:12:35 AM - Util - INFO: Wait :: '2' second(s) for the test to logout AUTOTEST3.
+06/13/2019 09:12:37 AM - Util - INFO: Actual Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 09:12:37 AM - Util - INFO: Expected Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 09:12:37 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 09:12:37 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
+06/13/2019 09:12:37 AM - TestStatus - INFO: Test Create Master and Branch Vendor ### TEST SUCCESSFUL
+06/13/2019 09:55:40 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 09:55:40 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 09:55:40 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 09:55:40 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 09:55:40 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 09:55:40 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 09:55:40 AM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/13/2019 09:55:40 AM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/13/2019 09:55:40 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+
+06/13/2019 09:55:40 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 09:55:41 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 09:55:41 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 09:55:41 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 09:55:41 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 09:55:42 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 09:55:42 AM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/13/2019 09:55:42 AM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/13/2019 09:55:42 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 09:55:42 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+06/13/2019 09:55:42 AM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/13/2019 09:55:42 AM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/13/2019 09:55:42 AM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/13/2019 09:55:44 AM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/13/2019 09:55:46 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 09:55:46 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 09:55:46 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 09:55:48 AM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/13/2019 09:55:48 AM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/13/2019 09:55:48 AM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/13/2019 09:55:48 AM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/13/2019 09:55:48 AM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/13/2019 09:55:49 AM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/13/2019 09:55:49 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 09:55:50 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 09:55:50 AM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/13/2019 09:55:50 AM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/13/2019 09:55:50 AM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/13/2019 09:55:52 AM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 09:55:52 AM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 09:55:52 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/13/2019 09:55:52 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/13/2019 09:55:52 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/13/2019 09:55:53 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/13/2019 09:55:53 AM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/13/2019 09:55:55 AM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/13/2019 09:55:55 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/13/2019 09:55:55 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$0 and  locator_type: id
+06/13/2019 09:55:55 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$0 locator type: id
+06/13/2019 09:55:55 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 09:55:55 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 09:55:55 AM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/13/2019 09:55:57 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 09:55:57 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 09:55:57 AM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/13/2019 09:55:57 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/13/2019 09:55:58 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 09:55:58 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 09:55:58 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 09:55:59 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 09:55:59 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 09:55:59 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 09:56:00 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 09:56:01 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 09:56:01 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 09:56:02 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:02 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:02 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:02 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:02 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:04 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:04 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:04 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:04 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:04 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:06 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:07 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:07 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:07 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:07 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:09 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/13/2019 09:56:09 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/13/2019 09:56:09 AM - Util - INFO: Wait :: '1' second(s) for 
+06/13/2019 09:56:10 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 09:56:10 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 09:56:10 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 09:56:10 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 09:56:10 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 09:56:10 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 09:56:11 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 09:56:11 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 09:56:11 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 09:56:12 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 09:56:12 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 09:56:12 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 09:56:13 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 09:56:13 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 09:56:13 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 09:56:14 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:14 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:14 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:14 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:14 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:16 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:17 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:17 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:17 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:17 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:19 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:19 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:19 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:19 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:19 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:21 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/13/2019 09:56:21 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/13/2019 09:56:21 AM - Util - INFO: Wait :: '1' second(s) for 
+06/13/2019 09:56:22 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 09:56:23 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 09:56:23 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 09:56:24 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 09:56:24 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 09:56:24 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 09:56:25 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 09:56:25 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 09:56:25 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 09:56:27 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:27 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:27 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:27 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:27 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:29 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:29 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:29 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:29 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:29 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:31 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 09:56:31 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 09:56:31 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 09:56:31 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 09:56:31 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 09:56:34 AM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/13/2019 09:56:34 AM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/13/2019 09:56:34 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/13/2019 09:56:34 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/13/2019 09:56:34 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/13/2019 09:56:34 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/13/2019 09:56:34 AM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/13/2019 09:56:34 AM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/13/2019 09:56:35 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/13/2019 09:56:35 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/13/2019 09:56:35 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 09:56:35 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 09:56:35 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 09:56:35 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 09:56:35 AM - Util - INFO: Wait :: '2' second(s) for the account, ['N15TH'], to be recognized by the application.
+06/13/2019 09:56:37 AM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 09:56:37 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 09:56:37 AM - LocationPage - INFO: Element Found with locator: FEI Trilogie Xref and  locator_type: link
+06/13/2019 09:56:37 AM - LocationPage - INFO: Clicked on element with locator: FEI Trilogie Xref locator type: link
+06/13/2019 09:56:38 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/13/2019 09:56:38 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/13/2019 09:56:38 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/13/2019 09:56:38 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/13/2019 09:56:38 AM - Util - INFO: Wait :: '2' second(s) for vendor, ['SACRAMENTO'], to be entered.
+06/13/2019 09:56:40 AM - SupplierXrefWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 09:56:40 AM - SupplierXrefWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 09:56:40 AM - Util - INFO: Wait :: '2' second(s) for the Supplier Cross Reference window to close.
+06/13/2019 09:56:42 AM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 09:56:42 AM - LocationPage - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 09:56:42 AM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/13/2019 09:56:55 AM - LocationPage - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id, 'ptModTable_')]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/13/2019 09:56:55 AM - LocationPage - INFO: Element NOT present with locator: //div[contains(@id, 'ptModTable_')] and with locator type: xpath
+06/13/2019 09:56:55 AM - LocationPage - INFO: Element Found with locator: //a//span[contains(text(), 'ummary')] and  locator_type: xpath
+06/13/2019 09:56:55 AM - LocationPage - INFO: Clicked on element with locator: //a//span[contains(text(), 'ummary')] locator type: xpath
+06/13/2019 09:56:56 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 09:56:56 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 09:56:56 AM - SummaryPage - INFO: Element Found with locator: pthdr2navbar and  locator_type: id
+06/13/2019 09:56:56 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2navbar locator type: id
+06/13/2019 09:56:56 AM - Util - INFO: Wait :: '2' second(s) for the menu window to open.
+06/13/2019 09:56:58 AM - Util - INFO: Wait :: '2' second(s) for the Navigator button to be visible.
+06/13/2019 09:57:00 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 09:57:00 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 09:57:00 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 09:57:02 AM - Util - INFO: Wait :: '2' second(s) for the Supplier link to be visible.
+06/13/2019 09:57:04 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 09:57:05 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 09:57:05 AM - Util - INFO: Wait :: '2' second(s) for the 'Find Existing Value' page to open.
+06/13/2019 09:57:07 AM - FindExistingValuePage - INFO: Element Found with locator: VENDOR_AP_VW_VENDOR_ID and  locator_type: id
+06/13/2019 09:57:07 AM - FindExistingValuePage - INFO: Sent data on element with locator: VENDOR_AP_VW_VENDOR_ID locator type: id
+06/13/2019 09:57:07 AM - FindExistingValuePage - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 09:57:07 AM - FindExistingValuePage - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 09:57:07 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 09:57:07 AM - SummaryPage - INFO: Element present with locator: //span[@id='VENDOR_VENDOR_ID'] and with locator type: xpath
+06/13/2019 09:57:07 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Created Domestic Master and Branch Vendor.
+
+06/13/2019 09:57:07 AM - SummaryPage - INFO: Element Found with locator: pthdr2ActionList and  locator_type: id
+06/13/2019 09:57:07 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2ActionList locator type: id
+06/13/2019 09:57:07 AM - SummaryPage - INFO: Element Found with locator: pthdr2signout and  locator_type: id
+06/13/2019 09:57:08 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2signout locator type: id
+06/13/2019 09:57:08 AM - Util - INFO: Wait :: '2' second(s) for the test to logout AUTOTEST3.
+06/13/2019 09:57:10 AM - Util - INFO: Actual Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 09:57:10 AM - Util - INFO: Expected Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 09:57:10 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 09:57:10 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
+
+06/13/2019 10:46:01 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 10:46:01 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 10:46:01 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 10:46:02 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 10:46:02 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 10:46:02 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 10:46:02 AM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/13/2019 10:46:02 AM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/13/2019 10:46:02 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+
+06/13/2019 10:46:02 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 10:46:02 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 10:46:02 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 10:46:02 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 10:46:02 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 10:46:04 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 10:46:04 AM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/13/2019 10:46:04 AM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/13/2019 10:46:04 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 10:46:04 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+06/13/2019 10:46:04 AM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/13/2019 10:46:04 AM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/13/2019 10:46:04 AM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/13/2019 10:46:06 AM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/13/2019 10:46:08 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 10:46:08 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 10:46:08 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/13/2019 10:46:10 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 10:46:12 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 10:46:12 AM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/13/2019 10:46:12 AM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/13/2019 10:46:12 AM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/13/2019 10:46:14 AM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 10:46:14 AM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 10:46:14 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/13/2019 10:46:14 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/13/2019 10:46:14 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/13/2019 10:46:15 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/13/2019 10:46:15 AM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/13/2019 10:46:17 AM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/13/2019 10:46:17 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/13/2019 10:46:17 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$0 and  locator_type: id
+06/13/2019 10:46:17 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$0 locator type: id
+06/13/2019 10:46:17 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 10:46:17 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 10:46:17 AM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/13/2019 10:46:19 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 10:46:19 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 10:46:19 AM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/13/2019 10:46:19 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/13/2019 10:46:20 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 10:46:20 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 10:46:20 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 10:46:21 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 10:46:21 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 10:46:21 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 10:46:23 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 10:46:23 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 10:46:23 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 10:46:24 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:24 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:24 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:24 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:24 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:26 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:26 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:26 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:27 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:27 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:29 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:29 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:29 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:29 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:29 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:31 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/13/2019 10:46:31 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/13/2019 10:46:31 AM - Util - INFO: Wait :: '1' second(s) for 
+06/13/2019 10:46:32 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 10:46:32 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 10:46:32 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 10:46:33 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 10:46:33 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 10:46:33 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 10:46:33 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 10:46:33 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 10:46:33 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 10:46:34 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 10:46:34 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 10:46:34 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 10:46:35 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 10:46:35 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 10:46:35 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 10:46:36 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:37 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:37 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:37 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:37 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:39 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:39 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:39 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:39 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:39 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:41 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:41 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:41 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:41 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:41 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:43 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/13/2019 10:46:43 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/13/2019 10:46:43 AM - Util - INFO: Wait :: '1' second(s) for 
+06/13/2019 10:46:45 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 10:46:45 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 10:46:45 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 10:46:46 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 10:46:47 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 10:46:47 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 10:46:48 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 10:46:48 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 10:46:48 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 10:46:49 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:49 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:49 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:49 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:49 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:51 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:51 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:51 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:52 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:52 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:54 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 10:46:54 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 10:46:54 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 10:46:54 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 10:46:54 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 10:46:56 AM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/13/2019 10:46:56 AM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/13/2019 10:46:56 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/13/2019 10:46:56 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/13/2019 10:46:56 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/13/2019 10:46:56 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/13/2019 10:46:57 AM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/13/2019 10:46:57 AM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/13/2019 10:46:57 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/13/2019 10:46:57 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/13/2019 10:46:57 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 10:46:57 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 10:46:57 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 10:46:57 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 10:46:57 AM - Util - INFO: Wait :: '2' second(s) for the account, ['NET25'], to be recognized by the application.
+06/13/2019 10:46:59 AM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 10:46:59 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 10:47:00 AM - LocationPage - INFO: Element Found with locator: FEI Trilogie Xref and  locator_type: link
+06/13/2019 10:47:00 AM - LocationPage - INFO: Clicked on element with locator: FEI Trilogie Xref locator type: link
+06/13/2019 10:47:01 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/13/2019 10:47:01 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/13/2019 10:47:01 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/13/2019 10:47:01 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/13/2019 10:47:01 AM - Util - INFO: Wait :: '2' second(s) for vendor, ['LAHVAC'], to be entered.
+06/13/2019 10:47:03 AM - SupplierXrefWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 10:47:03 AM - SupplierXrefWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 10:47:03 AM - Util - INFO: Wait :: '2' second(s) for the Supplier Cross Reference window to close.
+06/13/2019 10:47:05 AM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 10:47:05 AM - LocationPage - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 10:47:05 AM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/13/2019 10:47:19 AM - LocationPage - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id, 'ptModTable_')]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/13/2019 10:47:19 AM - LocationPage - INFO: Element NOT present with locator: //div[contains(@id, 'ptModTable_')] and with locator type: xpath
+06/13/2019 10:47:19 AM - LocationPage - INFO: Element Found with locator: //a//span[contains(text(), 'ummary')] and  locator_type: xpath
+06/13/2019 10:47:19 AM - LocationPage - INFO: Clicked on element with locator: //a//span[contains(text(), 'ummary')] locator type: xpath
+06/13/2019 10:47:19 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 10:47:19 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 10:47:19 AM - SummaryPage - INFO: Element Found with locator: pthdr2navbar and  locator_type: id
+06/13/2019 10:47:19 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2navbar locator type: id
+06/13/2019 10:47:19 AM - Util - INFO: Wait :: '2' second(s) for the menu window to open.
+06/13/2019 10:47:21 AM - Util - INFO: Wait :: '2' second(s) for the Navigator button to be visible.
+06/13/2019 10:47:23 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 10:47:23 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 10:47:23 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 10:47:25 AM - Util - INFO: Wait :: '2' second(s) for the Supplier link to be visible.
+06/13/2019 10:47:27 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 10:47:28 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 10:47:28 AM - Util - INFO: Wait :: '2' second(s) for the 'Find Existing Value' page to open.
+06/13/2019 10:47:30 AM - FindExistingValuePage - INFO: Element Found with locator: VENDOR_AP_VW_VENDOR_ID and  locator_type: id
+06/13/2019 10:47:30 AM - FindExistingValuePage - INFO: Sent data on element with locator: VENDOR_AP_VW_VENDOR_ID locator type: id
+06/13/2019 10:47:30 AM - FindExistingValuePage - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 10:47:30 AM - FindExistingValuePage - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 10:47:30 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 10:47:30 AM - SummaryPage - INFO: Element present with locator: //span[@id='VENDOR_VENDOR_ID'] and with locator type: xpath
+06/13/2019 10:47:30 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Created Domestic Master and Branch Vendor.
+
+06/13/2019 10:47:30 AM - SummaryPage - INFO: Element Found with locator: pthdr2ActionList and  locator_type: id
+06/13/2019 10:47:30 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2ActionList locator type: id
+06/13/2019 10:47:30 AM - SummaryPage - INFO: Element Found with locator: pthdr2signout and  locator_type: id
+06/13/2019 10:47:31 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2signout locator type: id
+06/13/2019 10:47:31 AM - Util - INFO: Wait :: '2' second(s) for the test to logout AUTOTEST3.
+06/13/2019 10:47:33 AM - Util - INFO: Actual Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 10:47:33 AM - Util - INFO: Expected Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 10:47:33 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 10:47:33 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
+
+06/13/2019 04:25:08 PM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 04:25:08 PM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 04:25:08 PM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 04:25:08 PM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 04:25:08 PM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 04:25:09 PM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 04:25:09 PM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/13/2019 04:25:09 PM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/13/2019 04:25:09 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+
+06/13/2019 04:25:09 PM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 04:25:09 PM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 04:25:09 PM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 04:25:09 PM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 04:25:09 PM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 04:25:10 PM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 04:25:10 PM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/13/2019 04:25:10 PM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/13/2019 04:25:10 PM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 04:25:10 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+06/13/2019 04:25:10 PM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/13/2019 04:25:10 PM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/13/2019 04:25:10 PM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/13/2019 04:25:12 PM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/13/2019 04:25:14 PM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 04:25:14 PM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 04:25:14 PM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 04:25:16 PM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/13/2019 04:25:17 PM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/13/2019 04:25:17 PM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/13/2019 04:25:17 PM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/13/2019 04:25:17 PM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/13/2019 04:25:17 PM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/13/2019 04:25:17 PM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 04:25:18 PM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 04:25:18 PM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/13/2019 04:25:19 PM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/13/2019 04:25:19 PM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/13/2019 04:25:21 PM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 04:25:21 PM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 04:25:21 PM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/13/2019 04:25:22 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/13/2019 04:25:22 PM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/13/2019 04:25:22 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/13/2019 04:25:22 PM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/13/2019 04:25:24 PM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/13/2019 04:25:24 PM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/13/2019 04:25:24 PM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$0 and  locator_type: id
+06/13/2019 04:25:24 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$0 locator type: id
+06/13/2019 04:25:24 PM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 04:25:24 PM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 04:25:24 PM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/13/2019 04:25:26 PM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 04:25:26 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 04:25:26 PM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/13/2019 04:25:26 PM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/13/2019 04:25:27 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 04:25:27 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 04:25:27 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 04:25:27 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 04:25:27 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 04:25:27 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 04:25:28 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 04:25:28 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 04:25:28 PM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 04:25:29 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 04:25:29 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 04:25:29 PM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 04:25:30 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 04:25:30 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 04:25:30 PM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 04:25:31 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:31 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:31 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:31 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:31 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:33 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:34 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:34 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:34 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:34 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:36 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:36 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:36 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:36 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:36 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:38 PM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/13/2019 04:25:38 PM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/13/2019 04:25:38 PM - Util - INFO: Wait :: '1' second(s) for 
+06/13/2019 04:25:40 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 04:25:40 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 04:25:40 PM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 04:25:41 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 04:25:41 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 04:25:41 PM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 04:25:42 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 04:25:43 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 04:25:43 PM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 04:25:44 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:44 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:44 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:44 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:44 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:46 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:46 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:46 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:46 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:46 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:48 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:49 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:49 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:49 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:49 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:51 PM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/13/2019 04:25:51 PM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/13/2019 04:25:51 PM - Util - INFO: Wait :: '1' second(s) for 
+06/13/2019 04:25:52 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 04:25:52 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 04:25:52 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 04:25:52 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 04:25:52 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 04:25:53 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 04:25:53 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 04:25:53 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 04:25:53 PM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 04:25:54 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 04:25:54 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 04:25:54 PM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 04:25:55 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 04:25:55 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 04:25:55 PM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 04:25:56 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:56 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:56 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:56 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:56 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:25:59 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:25:59 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:25:59 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:25:59 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:25:59 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:26:01 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:26:01 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:26:01 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:26:01 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:26:01 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:26:03 PM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/13/2019 04:26:03 PM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/13/2019 04:26:04 PM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/13/2019 04:26:04 PM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/13/2019 04:26:04 PM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/13/2019 04:26:04 PM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/13/2019 04:26:04 PM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/13/2019 04:26:04 PM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/13/2019 04:26:04 PM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/13/2019 04:26:04 PM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/13/2019 04:26:05 PM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 04:26:05 PM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 04:26:05 PM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 04:26:05 PM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 04:26:05 PM - Util - INFO: Wait :: '2' second(s) for the account, ['NET25'], to be recognized by the application.
+06/13/2019 04:26:07 PM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 04:26:07 PM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 04:26:07 PM - LocationPage - INFO: Element Found with locator: FEI Trilogie Xref and  locator_type: link
+06/13/2019 04:26:07 PM - LocationPage - INFO: Clicked on element with locator: FEI Trilogie Xref locator type: link
+06/13/2019 04:26:09 PM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/13/2019 04:26:09 PM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/13/2019 04:26:09 PM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/13/2019 04:26:09 PM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/13/2019 04:26:09 PM - Util - INFO: Wait :: '2' second(s) for vendor, ['LAHVAC'], to be entered.
+06/13/2019 04:26:11 PM - SupplierXrefWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 04:26:11 PM - SupplierXrefWindow - INFO: Message: unknown error: Element <iframe frameborder="0" id="ptModFrame_1" name="ptModFrame_1" src="https://fms-uat-fei.sys.ds.wolseley.com:3460/psc/fusuat00/EMPLOYEE/ERP/c/MAINTAIN_VENDORS.VNDR_ID.GBL?ICType=Panel&amp;ICElementNum=0&amp;ICStateNum=28&amp;ICResubmit=1&amp;ICAJAX=1&amp;" style="width: 1215px; height: 315px;" cd_frame_id_="8c6a9b751703382aa06508e4f19c08c9"></iframe> is not clickable at point (405, 592). Other element would receive the click: <div id="pt_modalMask" style="height: 364px; width: 1217px; display: block"></div>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/13/2019 04:26:11 PM - Util - INFO: Wait :: '2' second(s) for the Supplier Cross Reference window to close.
+06/13/2019 04:26:13 PM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 04:26:13 PM - LocationPage - INFO: Message: unknown error: Element <iframe id="ptifrmtgtframe" name="TargetContent" title="Main Content" frameborder="0" scrolling="auto" onload="ptrc.onLoadTC()" src="https://fms-uat-fei.sys.ds.wolseley.com:3460/psc/fusuat00/EMPLOYEE/ERP/c/MAINTAIN_VENDORS.VNDR_ID.GBL?PortalActualURL=https%3a%2f%2ffms-uat-fei.sys.ds.wolseley.com%3a3460%2fpsc%2ffusuat00%2fEMPLOYEE%2fERP%2fc%2fMAINTAIN_VENDORS.VNDR_ID.GBL&amp;PortalContentURL=https%3a%2f%2ffms-uat-fei.sys.ds.wolseley.com%3a3460%2fpsc%2ffusuat00%2fEMPLOYEE%2fERP%2fc%2fMAINTAIN_VENDORS.VNDR_ID.GBL&amp;PortalContentProvider=ERP&amp;PortalCRefLabel=Supplier&amp;PortalRegistryName=EMPLOYEE&amp;PortalServletURI=https%3a%2f%2ffms-uat-fei.sys.ds.wolseley.com%3a3460%2fpsp%2ffusuat00%2f&amp;PortalURI=https%3a%2f%2ffms-uat-fei.sys.ds.wolseley.com%3a3460%2fpsc%2ffusuat00%2f&amp;PortalHostNode=ERP&amp;NoCrumbs=yes&amp;PortalKeyStruct=yes" style="width: 1920px; height: 894px;" cd_frame_id_="ac421c1f2194072bc80ddfe7ba66227a"></iframe> is not clickable at point (45, 547). Other element would receive the click: <div id="pt_modalMask" style="height: 939px; width: 1938px; display: block;"></div>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/13/2019 04:26:13 PM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/13/2019 04:26:37 PM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 04:26:37 PM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 04:26:37 PM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 04:26:37 PM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 04:26:37 PM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 04:26:38 PM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 04:26:38 PM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/13/2019 04:26:38 PM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/13/2019 04:26:38 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+06/13/2019 04:26:38 PM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/13/2019 04:26:38 PM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/13/2019 04:26:38 PM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/13/2019 04:26:38 PM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/13/2019 04:26:38 PM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/13/2019 04:26:39 PM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/13/2019 04:26:39 PM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/13/2019 04:26:39 PM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/13/2019 04:26:39 PM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 04:26:39 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+
+06/13/2019 04:26:39 PM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/13/2019 04:26:39 PM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/13/2019 04:26:39 PM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/13/2019 04:26:41 PM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/13/2019 04:26:43 PM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 04:26:44 PM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 04:26:44 PM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/13/2019 04:26:46 PM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 04:26:47 PM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 04:26:47 PM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/13/2019 04:26:47 PM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/13/2019 04:26:47 PM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/13/2019 04:26:49 PM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 04:26:49 PM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 04:26:50 PM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/13/2019 04:26:50 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/13/2019 04:26:50 PM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/13/2019 04:26:50 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/13/2019 04:26:50 PM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/13/2019 04:26:52 PM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/13/2019 04:26:52 PM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/13/2019 04:26:52 PM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$0 and  locator_type: id
+06/13/2019 04:26:52 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$0 locator type: id
+06/13/2019 04:26:52 PM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 04:26:52 PM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 04:26:52 PM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/13/2019 04:26:54 PM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/13/2019 04:26:55 PM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$0 locator type: id
+06/13/2019 04:26:55 PM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/13/2019 04:26:55 PM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/13/2019 04:26:55 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/13/2019 04:26:55 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/13/2019 04:26:55 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/13/2019 04:26:55 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/13/2019 04:26:55 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/13/2019 04:26:56 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/13/2019 04:26:56 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/13/2019 04:26:56 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/13/2019 04:26:56 PM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/13/2019 04:26:57 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/13/2019 04:26:57 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/13/2019 04:26:57 PM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/13/2019 04:26:58 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/13/2019 04:26:58 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/13/2019 04:26:58 PM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/13/2019 04:26:59 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:26:59 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:26:59 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:26:59 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:26:59 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:27:02 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:27:02 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:27:02 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:27:02 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:27:02 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:27:04 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/13/2019 04:27:04 PM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/13/2019 04:27:04 PM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/13/2019 04:27:04 PM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/13/2019 04:27:04 PM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/13/2019 04:27:06 PM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/13/2019 04:27:06 PM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/13/2019 04:27:07 PM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/13/2019 04:27:07 PM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/13/2019 04:27:07 PM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/13/2019 04:27:07 PM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/13/2019 04:27:07 PM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/13/2019 04:27:07 PM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/13/2019 04:27:07 PM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/13/2019 04:27:07 PM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/13/2019 04:27:08 PM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/13/2019 04:27:08 PM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/13/2019 04:27:08 PM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 04:27:08 PM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 04:27:08 PM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/13/2019 04:27:08 PM - LocationPage - INFO: Clicked on element with locator: #ICSave locator type: id
+06/13/2019 04:27:08 PM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/13/2019 04:27:21 PM - LocationPage - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id, 'ptModTable_')]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/13/2019 04:27:21 PM - LocationPage - INFO: Element NOT present with locator: //div[contains(@id, 'ptModTable_')] and with locator type: xpath
+06/13/2019 04:27:21 PM - LocationPage - INFO: Element Found with locator: //a//span[contains(text(), 'ummary')] and  locator_type: xpath
+06/13/2019 04:27:21 PM - LocationPage - INFO: Clicked on element with locator: //a//span[contains(text(), 'ummary')] locator type: xpath
+06/13/2019 04:27:22 PM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 04:27:22 PM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 04:27:22 PM - SummaryPage - INFO: Element Found with locator: pthdr2navbar and  locator_type: id
+06/13/2019 04:27:22 PM - SummaryPage - INFO: Clicked on element with locator: pthdr2navbar locator type: id
+06/13/2019 04:27:22 PM - Util - INFO: Wait :: '2' second(s) for the menu window to open.
+06/13/2019 04:27:24 PM - Util - INFO: Wait :: '2' second(s) for the Navigator button to be visible.
+06/13/2019 04:27:26 PM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/13/2019 04:27:26 PM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/13/2019 04:27:26 PM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/13/2019 04:27:28 PM - Util - INFO: Wait :: '2' second(s) for the Supplier link to be visible.
+06/13/2019 04:27:30 PM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/13/2019 04:27:31 PM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/13/2019 04:27:31 PM - Util - INFO: Wait :: '2' second(s) for the 'Find Existing Value' page to open.
+06/13/2019 04:27:33 PM - FindExistingValuePage - INFO: Element Found with locator: VENDOR_AP_VW_VENDOR_ID and  locator_type: id
+06/13/2019 04:27:33 PM - FindExistingValuePage - INFO: Sent data on element with locator: VENDOR_AP_VW_VENDOR_ID locator type: id
+06/13/2019 04:27:33 PM - FindExistingValuePage - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/13/2019 04:27:33 PM - FindExistingValuePage - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/13/2019 04:27:34 PM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/13/2019 04:27:34 PM - SummaryPage - INFO: Element present with locator: //span[@id='VENDOR_VENDOR_ID'] and with locator type: xpath
+06/13/2019 04:27:34 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Created Domestic Master Vendor.
+06/13/2019 04:27:34 PM - SummaryPage - INFO: Element Found with locator: pthdr2ActionList and  locator_type: id
+06/13/2019 04:27:34 PM - SummaryPage - INFO: Clicked on element with locator: pthdr2ActionList locator type: id
+06/13/2019 04:27:34 PM - SummaryPage - INFO: Element Found with locator: pthdr2signout and  locator_type: id
+06/13/2019 04:27:34 PM - SummaryPage - INFO: Clicked on element with locator: pthdr2signout locator type: id
+06/13/2019 04:27:34 PM - Util - INFO: Wait :: '2' second(s) for the test to logout AUTOTEST3.
+06/13/2019 04:27:36 PM - Util - INFO: Actual Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 04:27:36 PM - Util - INFO: Expected Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/13/2019 04:27:36 PM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/13/2019 04:27:36 PM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
+06/13/2019 04:27:36 PM - TestStatus - INFO: Test Create Master and Branch Vendor ### TEST SUCCESSFUL
+06/14/2019 09:45:45 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/14/2019 09:45:45 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/14/2019 09:45:45 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/14/2019 09:45:46 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/14/2019 09:45:46 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/14/2019 09:45:46 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/14/2019 09:45:46 AM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/14/2019 09:45:46 AM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/14/2019 09:45:46 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+
+06/14/2019 09:45:46 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/14/2019 09:45:46 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/14/2019 09:45:46 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/14/2019 09:45:46 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/14/2019 09:45:46 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/14/2019 09:45:48 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/14/2019 09:45:48 AM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/14/2019 09:45:48 AM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/14/2019 09:45:48 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/14/2019 09:45:48 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+06/14/2019 09:45:48 AM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/14/2019 09:45:48 AM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/14/2019 09:45:48 AM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/14/2019 09:45:50 AM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/14/2019 09:45:52 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/14/2019 09:45:52 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/14/2019 09:45:52 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/14/2019 09:45:54 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/14/2019 09:45:56 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/14/2019 09:45:56 AM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/14/2019 09:45:56 AM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/14/2019 09:45:56 AM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/14/2019 09:45:58 AM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/14/2019 09:45:58 AM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/14/2019 09:45:59 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/14/2019 09:45:59 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/14/2019 09:45:59 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/14/2019 09:45:59 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/14/2019 09:45:59 AM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/14/2019 09:46:01 AM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/14/2019 09:46:01 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/14/2019 09:46:02 AM - IdentifyingInformationPage - INFO: Element Found with locator: BUS_UNIT_IDS_AP$new$0$$0 and  locator_type: id
+06/14/2019 09:46:02 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: BUS_UNIT_IDS_AP$new$0$$0 locator type: id
+06/14/2019 09:46:02 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$1 and  locator_type: id
+06/14/2019 09:46:02 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$1 locator type: id
+06/14/2019 09:46:02 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$1 and  locator_type: id
+06/14/2019 09:46:02 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$1 locator type: id
+06/14/2019 09:46:02 AM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/14/2019 09:46:04 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$1 and  locator_type: id
+06/14/2019 09:46:04 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$1 locator type: id
+06/14/2019 09:46:04 AM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/14/2019 09:46:04 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/14/2019 09:46:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 09:46:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 09:46:05 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/14/2019 09:46:06 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/14/2019 09:46:06 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/14/2019 09:46:06 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/14/2019 09:46:08 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 09:46:08 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 09:46:08 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 09:46:09 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:09 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:09 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:09 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:09 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:11 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:11 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:11 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:11 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:11 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:14 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:14 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:14 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:14 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:14 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:16 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/14/2019 09:46:16 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/14/2019 09:46:16 AM - Util - INFO: Wait :: '1' second(s) for 
+06/14/2019 09:46:17 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 09:46:17 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 09:46:17 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 09:46:17 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 09:46:17 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 09:46:18 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 09:46:18 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 09:46:18 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 09:46:18 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/14/2019 09:46:19 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/14/2019 09:46:19 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/14/2019 09:46:19 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/14/2019 09:46:20 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 09:46:20 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 09:46:20 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 09:46:21 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:21 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:21 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:21 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:21 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:23 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:24 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:24 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:24 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:24 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:26 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:26 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:26 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:26 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:26 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:28 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/14/2019 09:46:28 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/14/2019 09:46:28 AM - Util - INFO: Wait :: '1' second(s) for 
+06/14/2019 09:46:29 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 09:46:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 09:46:30 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/14/2019 09:46:31 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/14/2019 09:46:31 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/14/2019 09:46:31 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/14/2019 09:46:32 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 09:46:33 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 09:46:33 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 09:46:34 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:34 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:34 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:34 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:34 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:36 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:36 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:36 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:36 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:36 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:38 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 09:46:39 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 09:46:39 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 09:46:39 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 09:46:39 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 09:46:41 AM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/14/2019 09:46:41 AM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/14/2019 09:46:41 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/14/2019 09:46:41 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/14/2019 09:46:41 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/14/2019 09:46:41 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/14/2019 09:46:41 AM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/14/2019 09:46:41 AM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/14/2019 09:46:42 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/14/2019 09:46:42 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/14/2019 09:46:42 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/14/2019 09:46:42 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/14/2019 09:46:42 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/14/2019 09:46:42 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/14/2019 09:46:42 AM - Util - INFO: Wait :: '2' second(s) for the account, ['NET90'], to be recognized by the application.
+06/14/2019 09:46:44 AM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/14/2019 09:46:44 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/14/2019 09:46:44 AM - LocationPage - INFO: Element Found with locator: FEI Trilogie Xref and  locator_type: link
+06/14/2019 09:46:45 AM - LocationPage - INFO: Clicked on element with locator: FEI Trilogie Xref locator type: link
+06/14/2019 09:46:46 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/14/2019 09:46:46 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/14/2019 09:46:46 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/14/2019 09:46:46 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/14/2019 09:46:46 AM - Util - INFO: Wait :: '2' second(s) for vendor, ['HOUSTONWW'], to be entered.
+06/14/2019 09:46:48 AM - SupplierXrefWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/14/2019 09:46:48 AM - SupplierXrefWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/14/2019 09:46:48 AM - Util - INFO: Wait :: '2' second(s) for the Supplier Cross Reference window to close.
+06/14/2019 09:46:50 AM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/14/2019 09:46:50 AM - LocationPage - INFO: Clicked on element with locator: #ICSave locator type: id
+06/14/2019 09:46:50 AM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/14/2019 09:47:03 AM - LocationPage - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id, 'ptModTable_')]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/14/2019 09:47:03 AM - LocationPage - INFO: Element NOT present with locator: //div[contains(@id, 'ptModTable_')] and with locator type: xpath
+06/14/2019 09:47:03 AM - LocationPage - INFO: Element Found with locator: //a//span[contains(text(), 'ummary')] and  locator_type: xpath
+06/14/2019 09:47:03 AM - LocationPage - INFO: Clicked on element with locator: //a//span[contains(text(), 'ummary')] locator type: xpath
+06/14/2019 09:47:04 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/14/2019 09:47:04 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/14/2019 09:47:04 AM - SummaryPage - INFO: Element Found with locator: pthdr2navbar and  locator_type: id
+06/14/2019 09:47:04 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2navbar locator type: id
+06/14/2019 09:47:04 AM - Util - INFO: Wait :: '2' second(s) for the menu window to open.
+06/14/2019 09:47:06 AM - Util - INFO: Wait :: '2' second(s) for the Navigator button to be visible.
+06/14/2019 09:47:08 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/14/2019 09:47:08 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/14/2019 09:47:08 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/14/2019 09:47:10 AM - Util - INFO: Wait :: '2' second(s) for the Supplier link to be visible.
+06/14/2019 09:47:12 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/14/2019 09:47:13 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/14/2019 09:47:13 AM - Util - INFO: Wait :: '2' second(s) for the 'Find Existing Value' page to open.
+06/14/2019 09:47:15 AM - FindExistingValuePage - INFO: Element Found with locator: VENDOR_AP_VW_VENDOR_ID and  locator_type: id
+06/14/2019 09:47:15 AM - FindExistingValuePage - INFO: Sent data on element with locator: VENDOR_AP_VW_VENDOR_ID locator type: id
+06/14/2019 09:47:15 AM - FindExistingValuePage - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/14/2019 09:47:15 AM - FindExistingValuePage - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/14/2019 09:47:15 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/14/2019 09:47:15 AM - SummaryPage - INFO: Element present with locator: //span[@id='VENDOR_VENDOR_ID'] and with locator type: xpath
+06/14/2019 09:47:15 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Created Domestic Master and Branch Vendor.
+
+06/14/2019 09:47:15 AM - SummaryPage - INFO: Element Found with locator: pthdr2ActionList and  locator_type: id
+06/14/2019 09:47:15 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2ActionList locator type: id
+06/14/2019 09:47:15 AM - SummaryPage - INFO: Element Found with locator: pthdr2signout and  locator_type: id
+06/14/2019 09:47:15 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2signout locator type: id
+06/14/2019 09:47:15 AM - Util - INFO: Wait :: '2' second(s) for the test to logout AUTOTEST3.
+06/14/2019 09:47:17 AM - Util - INFO: Actual Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/14/2019 09:47:17 AM - Util - INFO: Expected Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/14/2019 09:47:17 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/14/2019 09:47:17 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
+
+06/14/2019 11:27:46 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/14/2019 11:27:46 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/14/2019 11:27:47 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/14/2019 11:27:47 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/14/2019 11:27:47 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/14/2019 11:27:48 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/14/2019 11:27:48 AM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/14/2019 11:27:48 AM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/14/2019 11:27:48 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/14/2019 11:27:48 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+06/14/2019 11:27:48 AM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/14/2019 11:27:49 AM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/14/2019 11:27:49 AM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/14/2019 11:27:51 AM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/14/2019 11:27:53 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/14/2019 11:27:53 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/14/2019 11:27:53 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/14/2019 11:27:55 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/14/2019 11:27:56 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/14/2019 11:27:56 AM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/14/2019 11:27:56 AM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/14/2019 11:27:56 AM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/14/2019 11:27:58 AM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/14/2019 11:27:58 AM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/14/2019 11:27:59 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/14/2019 11:27:59 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/14/2019 11:27:59 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/14/2019 11:27:59 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/14/2019 11:27:59 AM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/14/2019 11:28:01 AM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/14/2019 11:28:01 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/14/2019 11:28:01 AM - IdentifyingInformationPage - INFO: Element Found with locator: BUS_UNIT_IDS_AP$new$0$$0 and  locator_type: id
+06/14/2019 11:28:02 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: BUS_UNIT_IDS_AP$new$0$$0 locator type: id
+06/14/2019 11:28:02 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$1 and  locator_type: id
+06/14/2019 11:28:02 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$1 locator type: id
+06/14/2019 11:28:02 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$1 and  locator_type: id
+06/14/2019 11:28:02 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$1 locator type: id
+06/14/2019 11:28:02 AM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/14/2019 11:28:04 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$1 and  locator_type: id
+06/14/2019 11:28:04 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$1 locator type: id
+06/14/2019 11:28:04 AM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/14/2019 11:28:04 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/14/2019 11:28:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 11:28:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 11:28:05 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/14/2019 11:28:06 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/14/2019 11:28:06 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/14/2019 11:28:06 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/14/2019 11:28:07 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 11:28:08 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 11:28:08 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 11:28:09 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:28:09 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:28:09 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:28:09 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:28:09 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/14/2019 11:28:41 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: //span[@id='login_error'] and  locator_type: xpath
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element present with locator: //span[@id='login_error'] and with locator type: xpath
+06/14/2019 11:28:41 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Login Failed!
+
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: userid and  locator_type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Sent data on element with locator: userid locator type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: pwd and  locator_type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Sent data on element with locator: pwd locator type: id
+06/14/2019 11:28:41 AM - LoginPage - INFO: Element Found with locator: Submit and  locator_type: name
+06/14/2019 11:28:42 AM - LoginPage - INFO: Clicked on element with locator: Submit locator type: name
+06/14/2019 11:28:43 AM - Util - INFO: Actual Text From Application Web UI --> :: My Homepage
+06/14/2019 11:28:43 AM - Util - INFO: Expected Text From Application Web UI --> :: My Homepage
+06/14/2019 11:28:43 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/14/2019 11:28:43 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Title is CORRECT
+06/14/2019 11:28:43 AM - NavigatePage - INFO: Element Found with locator: PT_NAVBAR and  locator_type: id
+06/14/2019 11:28:43 AM - NavigatePage - INFO: Clicked on element with locator: PT_NAVBAR locator type: id
+06/14/2019 11:28:43 AM - Util - INFO: Wait :: '2' second(s) for the 'NavBar' menu to open.
+06/14/2019 11:28:45 AM - Util - INFO: Wait :: '2' second(s) for the application to focus on the new iFrame
+06/14/2019 11:28:47 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/14/2019 11:28:47 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/14/2019 11:28:47 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Element Found with locator: Suppliers and  locator_type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Clicked on element with locator: Suppliers locator type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Element Found with locator: Supplier Information and  locator_type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Clicked on element with locator: Supplier Information locator type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Element Found with locator: Add/Update and  locator_type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Clicked on element with locator: Add/Update locator type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/14/2019 11:28:49 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/14/2019 11:28:50 AM - FindExistingValuePage - INFO: Element Found with locator: ICTAB_2 and  locator_type: id
+06/14/2019 11:28:51 AM - FindExistingValuePage - INFO: Clicked on element with locator: ICTAB_2 locator type: id
+06/14/2019 11:28:51 AM - Util - INFO: Wait :: '2' second(s) for the [Add] button to be visible.
+06/14/2019 11:28:53 AM - SupplierInformationANV - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/14/2019 11:28:53 AM - SupplierInformationANV - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/14/2019 11:28:53 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_NAME1 and  locator_type: id
+06/14/2019 11:28:53 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_NAME1 locator type: id
+06/14/2019 11:28:53 AM - IdentifyingInformationPage - INFO: Element Found with locator: VENDOR_VNDR_NAME_SHRT_USR and  locator_type: id
+06/14/2019 11:28:53 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: VENDOR_VNDR_NAME_SHRT_USR locator type: id
+06/14/2019 11:28:53 AM - Util - INFO: Wait :: '2' second(s) for the Supplier's Short Name to be recognized by the app.
+06/14/2019 11:28:55 AM - IdentifyingInformationPage - INFO: Element Found with locator: VNDR_MAINT_WRK_VNDR_ID_PB and  locator_type: id
+06/14/2019 11:28:55 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: VNDR_MAINT_WRK_VNDR_ID_PB locator type: id
+06/14/2019 11:28:56 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM_QUAL$0 and  locator_type: id
+06/14/2019 11:28:56 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM_QUAL$0 locator type: id
+06/14/2019 11:28:56 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/14/2019 11:28:56 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: STD_ID_NUM$0 locator type: id
+06/14/2019 11:28:56 AM - Util - INFO: Wait :: '2' second(s) for the ID Type to be recognized by the app.
+06/14/2019 11:28:58 AM - IdentifyingInformationPage - INFO: Element Found with locator: STD_ID_NUM$0 and  locator_type: id
+06/14/2019 11:28:58 AM - IdentifyingInformationPage - INFO: Sent data on element with locator: STD_ID_NUM$0 locator type: id
+06/14/2019 11:28:58 AM - IdentifyingInformationPage - INFO: Element Found with locator: //span[contains(text(), 'ddress')] and  locator_type: xpath
+06/14/2019 11:28:58 AM - IdentifyingInformationPage - INFO: Clicked on element with locator: //span[contains(text(), 'ddress')] locator type: xpath
+06/14/2019 11:28:58 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 11:28:59 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 11:28:59 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/14/2019 11:29:00 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/14/2019 11:29:00 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/14/2019 11:29:00 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/14/2019 11:29:01 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 11:29:01 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 11:29:01 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 11:29:02 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:03 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:03 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:03 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:03 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:05 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:05 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:05 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:05 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:07 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:07 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:07 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:07 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:07 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:09 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/14/2019 11:29:09 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/14/2019 11:29:09 AM - Util - INFO: Wait :: '1' second(s) for 
+06/14/2019 11:29:10 AM - CleanAddressPage - INFO: Element Found with locator: VNDR_ADDR_SCROL_DESCR$0 and  locator_type: id
+06/14/2019 11:29:10 AM - CleanAddressPage - INFO: Cleared element with locator: VNDR_ADDR_SCROL_DESCR$0 locator_type: id
+06/14/2019 11:29:10 AM - CleanAddressPage - INFO: Element Found with locator: VNDR_ADDR_SCROL_DESCR$0 and  locator_type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Sent data on element with locator: VNDR_ADDR_SCROL_DESCR$0 locator type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_EFFDT$0 and  locator_type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Cleared element with locator: VENDOR_ADDR_EFFDT$0 locator_type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_EFFDT$0 and  locator_type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EFFDT$0 locator type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_COUNTRY$prompt$0 and  locator_type: id
+06/14/2019 11:29:11 AM - CleanAddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_COUNTRY$prompt$0 locator type: id
+06/14/2019 11:29:11 AM - Util - INFO: Wait :: '2' second(s) for 'Look Up Country' window to open.
+06/14/2019 11:29:13 AM - SeleniumDriver - INFO: Element Found with locator: COUNTRY_TBL_COUNTRY and  locator_type: id
+06/14/2019 11:29:13 AM - SeleniumDriver - INFO: Sent data on element with locator: COUNTRY_TBL_COUNTRY locator type: id
+06/14/2019 11:29:13 AM - SeleniumDriver - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/14/2019 11:29:13 AM - SeleniumDriver - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/14/2019 11:29:13 AM - Util - INFO: Wait :: '2' second(s) for AUS to be found.
+06/14/2019 11:29:15 AM - SeleniumDriver - INFO: Element Found with locator: SEARCH_RESULT1 and  locator_type: id
+06/14/2019 11:29:15 AM - SeleniumDriver - INFO: Clicked on element with locator: SEARCH_RESULT1 locator type: id
+06/14/2019 11:29:15 AM - Util - INFO: Wait :: '2' second(s) for popup window to close
+06/14/2019 11:29:17 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 11:29:17 AM - CleanAddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 11:29:17 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 11:29:18 AM - CleanAddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 11:29:18 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 11:29:18 AM - CleanAddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 11:29:18 AM - CleanAddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 11:29:18 AM - CleanAddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 11:29:18 AM - Util - INFO: Wait :: '2' second(s) for the postal to be recognized by the app.
+06/14/2019 11:29:20 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 11:29:20 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 11:29:20 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 11:29:21 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:21 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:21 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:21 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:21 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:23 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:24 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:24 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:24 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:24 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:26 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:26 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:26 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:26 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:26 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:28 AM - AddressPage - INFO: Element Found with locator: $ICField2$new$0$$0 and  locator_type: id
+06/14/2019 11:29:28 AM - AddressPage - INFO: Clicked on element with locator: $ICField2$new$0$$0 locator type: id
+06/14/2019 11:29:28 AM - Util - INFO: Wait :: '1' second(s) for 
+06/14/2019 11:29:29 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS1$0 and  locator_type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS1$0 locator type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_ADDRESS2$0 and  locator_type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_ADDRESS2$0 locator type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_CITY$0 and  locator_type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_CITY$0 locator type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_POSTAL$0 and  locator_type: id
+06/14/2019 11:29:30 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_POSTAL$0 locator type: id
+06/14/2019 11:29:30 AM - Util - INFO: Wait :: '1' second(s) for the postal code to be recognized by the app.
+06/14/2019 11:29:31 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_STATE$0 and  locator_type: id
+06/14/2019 11:29:31 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_STATE$0 locator type: id
+06/14/2019 11:29:31 AM - Util - INFO: Wait :: '1' second(s) for the state to be recognized by the app.
+06/14/2019 11:29:32 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_EMAILID$0 and  locator_type: id
+06/14/2019 11:29:32 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_EMAILID$0 locator type: id
+06/14/2019 11:29:32 AM - Util - INFO: Wait :: '1' second(s) for the email to be recognized by the app.
+06/14/2019 11:29:33 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:34 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:34 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:34 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:34 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:36 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:36 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:36 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:36 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:36 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:38 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN_PHONE$0 and  locator_type: id
+06/14/2019 11:29:38 AM - AddressPage - INFO: Sent data on element with locator: VENDOR_ADDR_PHN_PHONE$0 locator type: id
+06/14/2019 11:29:38 AM - AddressPage - INFO: Element Found with locator: VENDOR_ADDR_PHN$new$0$$0 and  locator_type: id
+06/14/2019 11:29:38 AM - AddressPage - INFO: Clicked on element with locator: VENDOR_ADDR_PHN$new$0$$0 locator type: id
+06/14/2019 11:29:38 AM - Util - INFO: Wait :: '2' second(s) for the new phone row to be recognized by the app.
+06/14/2019 11:29:40 AM - AddressPage - INFO: Element Found with locator: //span[text() = 'ocation'] and  locator_type: xpath
+06/14/2019 11:29:40 AM - AddressPage - INFO: Clicked on element with locator: //span[text() = 'ocation'] locator type: xpath
+06/14/2019 11:29:41 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_VNDR_LOC$0 and  locator_type: id
+06/14/2019 11:29:41 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_VNDR_LOC$0 locator type: id
+06/14/2019 11:29:41 AM - LocationPage - INFO: Element Found with locator: VNDR_LOC_SCROL_DESCR$0 and  locator_type: id
+06/14/2019 11:29:41 AM - LocationPage - INFO: Sent data on element with locator: VNDR_LOC_SCROL_DESCR$0 locator type: id
+06/14/2019 11:29:41 AM - LocationPage - INFO: Element Found with locator: Procurement and  locator_type: link
+06/14/2019 11:29:41 AM - LocationPage - INFO: Clicked on element with locator: Procurement locator type: link
+06/14/2019 11:29:41 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VNDR_LOC_WRK1_PROC_OPT_PB and  locator_type: id
+06/14/2019 11:29:42 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: VNDR_LOC_WRK1_PROC_OPT_PB locator type: id
+06/14/2019 11:29:42 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/14/2019 11:29:42 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/14/2019 11:29:42 AM - ProcurementOptionsWindow - INFO: Element Found with locator: VENDOR_LOC_PYMNT_TERMS_CD and  locator_type: id
+06/14/2019 11:29:42 AM - ProcurementOptionsWindow - INFO: Sent data on element with locator: VENDOR_LOC_PYMNT_TERMS_CD locator type: id
+06/14/2019 11:29:42 AM - Util - INFO: Wait :: '2' second(s) for the account, ['N30TH'], to be recognized by the application.
+06/14/2019 11:29:44 AM - ProcurementOptionsWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/14/2019 11:29:44 AM - ProcurementOptionsWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/14/2019 11:29:44 AM - LocationPage - INFO: Element Found with locator: FEI Trilogie Xref and  locator_type: link
+06/14/2019 11:29:44 AM - LocationPage - INFO: Clicked on element with locator: FEI Trilogie Xref locator type: link
+06/14/2019 11:29:46 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/14/2019 11:29:46 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/14/2019 11:29:46 AM - SupplierXrefWindow - INFO: Element Found with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 and  locator_type: id
+06/14/2019 11:29:46 AM - SupplierXrefWindow - INFO: Sent data on element with locator: WG_PS_TRL_VXREF_WG_TRL_VACCT$0 locator type: id
+06/14/2019 11:29:46 AM - Util - INFO: Wait :: '2' second(s) for vendor, ['LAHVAC'], to be entered.
+06/14/2019 11:29:48 AM - SupplierXrefWindow - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/14/2019 11:29:48 AM - SupplierXrefWindow - INFO: Clicked on element with locator: #ICSave locator type: id
+06/14/2019 11:29:48 AM - Util - INFO: Wait :: '2' second(s) for the Supplier Cross Reference window to close.
+06/14/2019 11:29:50 AM - LocationPage - INFO: Element Found with locator: #ICSave and  locator_type: id
+06/14/2019 11:29:50 AM - LocationPage - INFO: Clicked on element with locator: #ICSave locator type: id
+06/14/2019 11:29:50 AM - Util - INFO: Wait :: '10' second(s) for a warning message to be displayed, if applicable.
+06/14/2019 11:30:03 AM - LocationPage - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id, 'ptModTable_')]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17763 x86_64)
+
+06/14/2019 11:30:03 AM - LocationPage - INFO: Element NOT present with locator: //div[contains(@id, 'ptModTable_')] and with locator type: xpath
+06/14/2019 11:30:03 AM - LocationPage - INFO: Element Found with locator: //a//span[contains(text(), 'ummary')] and  locator_type: xpath
+06/14/2019 11:30:03 AM - LocationPage - INFO: Clicked on element with locator: //a//span[contains(text(), 'ummary')] locator type: xpath
+06/14/2019 11:30:03 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/14/2019 11:30:03 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/14/2019 11:30:03 AM - SummaryPage - INFO: Element Found with locator: pthdr2navbar and  locator_type: id
+06/14/2019 11:30:03 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2navbar locator type: id
+06/14/2019 11:30:03 AM - Util - INFO: Wait :: '2' second(s) for the menu window to open.
+06/14/2019 11:30:05 AM - Util - INFO: Wait :: '2' second(s) for the Navigator button to be visible.
+06/14/2019 11:30:07 AM - NavigatePage - INFO: Element Found with locator: //*[@id='PTNB$PTNUI_NB_MENU'] and  locator_type: xpath
+06/14/2019 11:30:08 AM - NavigatePage - INFO: Clicked on element with locator: //*[@id='PTNB$PTNUI_NB_MENU'] locator type: xpath
+06/14/2019 11:30:08 AM - Util - INFO: Wait :: '2' second(s) for the 'Navigator' menu to open.
+06/14/2019 11:30:10 AM - Util - INFO: Wait :: '2' second(s) for the Supplier link to be visible.
+06/14/2019 11:30:12 AM - NavigatePage - INFO: Element Found with locator: Supplier and  locator_type: link
+06/14/2019 11:30:12 AM - NavigatePage - INFO: Clicked on element with locator: Supplier locator type: link
+06/14/2019 11:30:12 AM - Util - INFO: Wait :: '2' second(s) for the 'Find Existing Value' page to open.
+06/14/2019 11:30:15 AM - FindExistingValuePage - INFO: Element Found with locator: VENDOR_AP_VW_VENDOR_ID and  locator_type: id
+06/14/2019 11:30:15 AM - FindExistingValuePage - INFO: Sent data on element with locator: VENDOR_AP_VW_VENDOR_ID locator type: id
+06/14/2019 11:30:15 AM - FindExistingValuePage - INFO: Element Found with locator: #ICSearch and  locator_type: id
+06/14/2019 11:30:15 AM - FindExistingValuePage - INFO: Clicked on element with locator: #ICSearch locator type: id
+06/14/2019 11:30:16 AM - SummaryPage - INFO: Element Found with locator: //span[@id='VENDOR_VENDOR_ID'] and  locator_type: xpath
+06/14/2019 11:30:16 AM - SummaryPage - INFO: Element present with locator: //span[@id='VENDOR_VENDOR_ID'] and with locator type: xpath
+06/14/2019 11:30:16 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Created Domestic Master and Branch Vendor.
+
+06/14/2019 11:30:16 AM - SummaryPage - INFO: Element Found with locator: pthdr2ActionList and  locator_type: id
+06/14/2019 11:30:16 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2ActionList locator type: id
+06/14/2019 11:30:16 AM - SummaryPage - INFO: Element Found with locator: pthdr2signout and  locator_type: id
+06/14/2019 11:30:17 AM - SummaryPage - INFO: Clicked on element with locator: pthdr2signout locator type: id
+06/14/2019 11:30:17 AM - Util - INFO: Wait :: '2' second(s) for the test to logout AUTOTEST3.
+06/14/2019 11:30:19 AM - Util - INFO: Actual Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/14/2019 11:30:19 AM - Util - INFO: Expected Text From Application Web UI --> :: Oracle PeopleSoft Sign-in
+06/14/2019 11:30:19 AM - Util - INFO:  ### VERIFICATION CONTAINS !!!
+06/14/2019 11:30:19 AM - TestStatus - INFO:  *** VERIFICATION SUCCESSFUL :: + Successfully Signed Out of Application.
+
