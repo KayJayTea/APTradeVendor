@@ -366,7 +366,7 @@ class CleanAddressPage(BasePage):
         self.ca_enter_postal_code(post_code)
 
     """ CANADA """
-    def clean_canadian_address(self, desc_text="CANADA", sam_type="Corporate Info",
+    def clean_canadian_address(self, desc_text="CANADA", sam_type="Remit",
                                country_code="CAN",
                                address_1="Sheraton Hotel",
                                address_2="35 Rue Laurier",

@@ -62,17 +62,19 @@ class TestDomesticBV(unittest.TestCase):
         self.sup_info_anv.click_add_button()
         self.id_info.enter_identifying_info()
 
-        """ CORPORATE INFORMATION """
+        """ REMIT INFORMATION """
         self.id_info.click_address_tab()
         self.addr.enter_domestic_master_vendor_address("Remit")
+        # self.clean_addr.clean_canadian_address()
         self.addr.enter_email_id()
         self.addr.enter_business_phone()
         self.addr.enter_fax()
         self.addr.enter_trilogie_dm_fax()
 
-        """ REMIT ADDRESS """
+        """ CORPORATE ADDRESS """
         self.addr.click_add_new_address_btn()
-        self.clean_addr.clean_australian_address()
+        self.addr.enter_domestic_master_vendor_address("Corporate Info")
+        # self.clean_addr.clean_australian_address()
         self.addr.enter_email_id()
         self.addr.enter_business_phone()
         self.addr.enter_fax()
