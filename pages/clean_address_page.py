@@ -212,7 +212,7 @@ class CleanAddressPage(BasePage):
     """ END CLEAN ADDRESS DEFINITIONS """
 
     """ CLEAN ADDRESSES """
-    def clean_domestic_us_addresses(self, desc_text="UNITED STATES", sam_type="Corporate Info",
+    def clean_domestic_us_addresses(self, desc_text="UNITED STATES", sam_type="Remit",
                                     address_1="The Westin New Orleans Canal Place",
                                     address_2="100 Rue Iberville",
                                     city="New Orleans",
@@ -366,7 +366,7 @@ class CleanAddressPage(BasePage):
         self.ca_enter_postal_code(post_code)
 
     """ CANADA """
-    def clean_canadian_address(self, desc_text="CANADA", sam_type="Remit",
+    def clean_canadian_address(self, desc_text="CANADA", sam_type="Corporate Info",
                                country_code="CAN",
                                address_1="Sheraton Hotel",
                                address_2="35 Rue Laurier",
@@ -404,7 +404,7 @@ class CleanAddressPage(BasePage):
         self.ca_enter_postal_code(post_code)
 
     """ FRANCE """
-    def clean_french_address(self, desc_text="FRANCE", sam_type="Remit",
+    def clean_french_address(self, desc_text="FRANCE", sam_type="Trilogie PO Address",
                              country_code="FRA",
                              address_1="Holiday Inn Paris - Gare de Lyon Bastille",
                              address_2="11 Rue de Lyon",

@@ -13,6 +13,7 @@ from popup_windows.vat_registration_details_window import VATRegistrationDetails
 
 import utilities.custom_logger as cl
 import logging
+import time
 
 
 class IdentifyingInformationPage(BasePage):
@@ -46,6 +47,8 @@ class IdentifyingInformationPage(BasePage):
     _collapse_all_button = "VNDR_MAINT_WRK_COLLAPSE_ALL_FLAG"
     _corporate_supplier_checkbox = "VNDR_MAINT_WRK_CORP_VNDR_FLG$21$"
     _corporate_supplier_id_text = "VENDOR_CORPORATE_VENDOR"
+    _corporate_supplier_id_search = "VENDOR_CORPORATE_VENDOR$prompt$img"
+    _inter_unit_supplier_id_text = "VENDOR_VNDR_AFFILIATE"
     _fei_trl_attributes_link = "FEI TRL Attributes"  # LINK_TEXT
     _additional_id_numbers_arrow = "VNDR_MAINT_WRK_VNDR_ID_PB"
     _additional_reporting_elements_arrow = "VNDR_MAINT_WRK_FPDS_INFO_PB"
@@ -74,6 +77,12 @@ class IdentifyingInformationPage(BasePage):
     _veteran_check = "VNDR_RPT_ELEM_VETERAN_FLG$0"
     _disabled = "VNDR_RPT_ELEM_DISABLED$0"
 
+    def click_address_tab(self):
+        self.element_click(self._address_tab, "xpath")
+        wait = WebDriverWait(self.driver, 10, poll_frequency=1)
+        wait.until(ec.visibility_of_element_located((By.ID, "VNDR_ADDR_SCROL_DESCR$0")))
+
+    """" HEADER INFORMATION """
     def enter_supplier_name(self):
         fake_data = Faker()
         fake_company = fake_data.company()
@@ -138,6 +147,14 @@ class IdentifyingInformationPage(BasePage):
         except Exception as e:
             print(e)
 
+    """ SUPPLIER RELATIONSHIPS """
+    def enter_parent_supplier(self, parent_id):
+        self.click_corporate_supplier_checkbox()
+        wait = WebDriverWait(self.driver, 10, poll_frequency=1)
+        wait.until(ec.visibility_of_element_located((By.ID, self._corporate_supplier_id_search)))
+        self.clear_element(self._corporate_supplier_id_text)
+        self.sendkeys(parent_id, self._corporate_supplier_id_text)
+
     def click_fei_trl_attr_link(self):
         self.element_click(self._fei_trl_attributes_link, locator_type="link")
         self.util.sleep(1, "the active window to be recognized by the app.")
@@ -148,6 +165,7 @@ class IdentifyingInformationPage(BasePage):
         except Exception as e:
             print(e)
 
+    """ ADDITIONAL ID NUMBERS """
     def expand_additional_id_numbers(self):
         self.element_click(self._additional_id_numbers_arrow)
 
@@ -191,11 +209,6 @@ class IdentifyingInformationPage(BasePage):
         self.enter_id_type_ssn("SSN")
         self.element_click(self._id_number3)
         self.enter_ssn_number()
-
-    def click_address_tab(self):
-        self.element_click(self._address_tab, "xpath")
-        wait = WebDriverWait(self.driver, 10, poll_frequency=1)
-        wait.until(ec.visibility_of_element_located((By.ID, "VNDR_ADDR_SCROL_DESCR$0")))
 
     def select_random_type_of_contractor(self):
         type_of_contractor = ["Domestic Contractor Outside US", "Educational Institution", "Foreign Contractor",
@@ -255,27 +268,17 @@ class IdentifyingInformationPage(BasePage):
         veteran_checkbox = self.driver.find_element(By.ID, self._veteran_check)
         veteran_checkbox.click()
 
-    """ SUPPLIER RELATIONSHIPS """
-
     def click_corporate_supplier_checkbox(self):
-        self.sendkeys(Keys.TAB, self._collapse_all_button)
+        # self.sendkeys(Keys.TAB, self._collapse_all_button)
         is_checked = self.driver.find_element(By.ID, self._corporate_supplier_checkbox).is_selected()
         if is_checked:
             print("'Corporate Supplier' checkbox is already selected")
         else:
-            # self.element_click(self._withholding_checkbox, "id")
-            # self.driver.find_element(By.ID, self._withholding_checkbox).click()
-            self.sendkeys(Keys.SPACE, self._corporate_supplier_checkbox)
+            # self.sendkeys(Keys.ENTER, self._corporate_supplier_checkbox)
+            self.element_click(self._corporate_supplier_checkbox)
+            time.sleep(3)
+            # self.element_click(self._inter_unit_supplier_id_text)
             print("'Corporate Supplier' checkbox selected")
-
-    def enter_parent_supplier(self, parent_id):
-        self.click_corporate_supplier_checkbox()
-        wait = WebDriverWait(self.driver, 10, poll_frequency=1)
-        wait.until(ec.visibility_of_element_located((By.ID, self._corporate_supplier_id_text)))
-        self.clear_element(self._corporate_supplier_id_text)
-        self.sendkeys(parent_id, self._corporate_supplier_id_text)
-
-    """ END SUPPLIER RELATIONSHIPS """
 
     def enter_additional_reporting_elements(self):
         self.element_click(self._additional_reporting_elements_arrow)
@@ -306,6 +309,9 @@ class IdentifyingInformationPage(BasePage):
         # self.click_registration_link()
         # self.vat_reg_details.enter_vat_registration_details()
 
+        """ ENTER PARENT SUPPLIER """
+        # self.enter_parent_supplier("0004000012")
+
         """ SELECT FEI Trl Attribute """
         # self.click_fei_trl_attr_link()
         # self.supplier_attr.select_yes_cvr()
@@ -317,13 +323,10 @@ class IdentifyingInformationPage(BasePage):
         # self.supplier_attr.enter_url()
         # self.supplier_attr.click_ok_button()
 
-        """ SUPPLIER RELATIONSHIPS """
-        # self.enter_parent_supplier("0003015038")
-
         # Expand Additional ID Numbers section
         self.expand_additional_id_numbers()
         self.enter_dns_info()
-        # self.enter_tin_info()
-        # self.enter_ssn_info()
+        self.enter_tin_info()
+        self.enter_ssn_info()
 
-        # self.enter_additional_reporting_elements()
+        self.enter_additional_reporting_elements()

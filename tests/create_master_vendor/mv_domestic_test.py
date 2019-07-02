@@ -5,6 +5,7 @@ from pages.add_new_value_page import SupplierInformationANV
 from pages.summary_page import SummaryPage
 from pages.identifying_information_page import IdentifyingInformationPage
 from pages.address_page import AddressPage
+from pages.clean_address_page import CleanAddressPage
 from pages.location_page import LocationPage
 from popup_windows.procurement_options_window import ProcurementOptionsWindow
 from utilities.tests_status import TestStatus
@@ -31,12 +32,13 @@ class TestCreateDomesticMV(unittest.TestCase):
         self.summary = SummaryPage(self.driver)
         self.id_info = IdentifyingInformationPage(self.driver)
         self.addr = AddressPage(self.driver)
+        self.clean_addr = CleanAddressPage(self.driver)
         self.loc = LocationPage(self.driver)
         self.procurement = ProcurementOptionsWindow(self.driver)
 
     @pytest.mark.run(order=1)
-    @data((os.environ.get('PSFT_USER_ID'), "wrongpassword"))
-    # @data(("AUTOTEST3", "wrongpassword"))
+    # @data((os.environ.get('PSFT_USER_ID'), "wrongpassword"))
+    @data(("AUTOTEST3", "wrongpassword"))
     @unpack
     def test_invalid_password(self, username, password):
         self.lp.login(username, password)
@@ -44,8 +46,8 @@ class TestCreateDomesticMV(unittest.TestCase):
         self.ts.mark(result, "Login Failed!")
 
     @pytest.mark.run(order=2)
-    @data((os.environ.get('PSFT_USER_ID'), os.environ.get('PSFT_USER_PWD')))
-    # @data(("AUTOTEST3", "Psoft1234!"))
+    # @data((os.environ.get('PSFT_USER_ID'), os.environ.get('PSFT_USER_PWD')))
+    @data(("AUTOTEST3", "Psoft1234!"))
     @unpack
     def test_domestic_master_vendor_creation(self, username, password):
         self.lp.login(username, password)
@@ -57,30 +59,26 @@ class TestCreateDomesticMV(unittest.TestCase):
         self.sup_info_anv.click_add_button()
         self.id_info.enter_identifying_info()
 
-        """ CORPORATE INFO """
+        """ REMIT """
         self.id_info.click_address_tab()
-        self.addr.enter_domestic_master_vendor_address("Corporate Info")
+        # self.addr.enter_domestic_master_vendor_address("Remit")
+        self.clean_addr.clean_domestic_us_addresses()
         self.addr.enter_email_id()
         self.addr.enter_all_phone_types()
-        # self.addr.enter_business_phone()
-        # self.addr.enter_fax()
-        # self.addr.enter_trilogie_dm_fax()
 
-        """ REMIT """
-        # self.addr.click_add_new_address_btn()
-        # self.addr.enter_domestic_master_vendor_address("Remit")
-        # self.addr.enter_email_id()
-        # self.addr.enter_business_phone()
-        # self.addr.enter_fax()
-        # self.addr.enter_trilogie_dm_fax()
+        """ CORPORATE INFO """
+        self.addr.click_add_new_address_btn()
+        # self.addr.enter_domestic_master_vendor_address("Corporate Info")
+        self.clean_addr.clean_canadian_address()
+        self.addr.enter_email_id()
+        self.addr.enter_all_phone_types()
 
         """ TRILOGIE PO ADDRESS """
-        # self.addr.click_add_new_address_btn()
+        self.addr.click_add_new_address_btn()
         # self.addr.enter_domestic_master_vendor_address("Trilogie PO Address")
-        # self.addr.enter_email_id()
-        # self.addr.enter_business_phone()
-        # self.addr.enter_fax()
-        # self.addr.enter_trilogie_dm_fax()
+        self.clean_addr.clean_french_address()
+        self.addr.enter_email_id()
+        self.addr.enter_all_phone_types()
 
         # Add a location
         self.addr.click_location_tab()
@@ -88,7 +86,7 @@ class TestCreateDomesticMV(unittest.TestCase):
 
         # Add Procurement
         self.loc.click_procurement_link()
-        self.procurement.select_payment_terms_id("110N3")
+        self.procurement.select_payment_terms_id("NET30")
 
         # Save record
         self.loc.click_save_btn()

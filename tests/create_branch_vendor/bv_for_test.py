@@ -37,8 +37,8 @@ class TestForeignBV(unittest.TestCase):
         self.sup_xref = SupplierXrefWindow(self.driver)
 
     @pytest.mark.run(order=1)
-    @data((os.environ.get('PSFT_USER_ID'), "wrongpassword"))
-    # @data(("AUTOTEST3", "wrongpassword"))
+    # @data((os.environ.get('PSFT_USER_ID'), "wrongpassword"))
+    @data(("AUTOTEST3", "wrongpassword"))
     @unpack
     def test_invalid_password(self, username, password):
         self.lp.login(username, password)
@@ -46,8 +46,8 @@ class TestForeignBV(unittest.TestCase):
         self.ts.mark(result, "Login Failed!")
 
     @pytest.mark.run(order=2)
-    @data((os.environ.get('PSFT_USER_ID'), os.environ.get('PSFT_USER_PWD')))
-    # @data(("AUTOTEST3", "Psoft1234$"))
+    # @data((os.environ.get('PSFT_USER_ID'), os.environ.get('PSFT_USER_PWD')))
+    @data(("AUTOTEST3", "Psoft1234!"))
     @unpack
     def test_foreign_master_and_branch_vendor_creation(self, username, password):
         # Login into PeopleSoft with CREATOR credentials
@@ -62,7 +62,7 @@ class TestForeignBV(unittest.TestCase):
 
         """ FOREIGN CORPORATE INFO ADDRESS """
         self.id_info.click_address_tab()
-        self.clean_addr.clean_japanese_address()
+        self.clean_addr.clean_germany_address("GERMANY", "Corporate Info")
         self.addr.enter_email_id()
         self.addr.enter_business_phone()
         self.addr.enter_fax()

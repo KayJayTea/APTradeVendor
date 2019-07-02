@@ -68,27 +68,21 @@ class TestForeignBVMultiLocationsMultiLogons(unittest.TestCase):
         self.clean_addr.clean_canadian_address("CANADA", "Corporate Info")
         self.addr.enter_email_id()
         # self.addr.enter_payment_withholding_alt_names()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
         """ FOREIGN REMIT INFORMATION """
         self.addr.click_add_new_address_btn()
         self.clean_addr.clean_brazilian_address("BRAZIL", "Remit")
         self.addr.enter_email_id()
         # self.addr.enter_payment_withholding_alt_names()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
         """ FOREIGN TRILOGIE PO ADDRESS ONE """
         self.addr.click_add_new_address_btn()
         self.clean_addr.clean_singapore_address("SINGAPORE", "Trilogie PO Address")
         self.addr.enter_email_id()
         # self.addr.enter_payment_withholding_alt_names()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
         """ CONTACTS PAGE"""
         self.addr.click_contacts_tab()
@@ -101,14 +95,11 @@ class TestForeignBVMultiLocationsMultiLogons(unittest.TestCase):
 
         # Add Procurement Options
         self.loc.click_procurement_link()
-        self.procurement.change_ordering_address("3")
-        self.procurement.change_returning_address("3")
-        self.procurement.change_ship_from_address("3")
         self.procurement.select_payment_terms_id("NET30")
 
         # Add Branch Vendor(s)
         self.loc.click_fei_trilogie_xref_link()
-        self.sup_xref.select_two_accounts("HOUSTONWW", "LAHVAC")
+        self.sup_xref.select_all_accounts()
 
         """ Add LOC_2 """
         self.loc.click_add_location_btn()
@@ -120,7 +111,7 @@ class TestForeignBVMultiLocationsMultiLogons(unittest.TestCase):
 
         # Add Branch Vendor(s)
         self.loc.click_fei_trilogie_xref_link()
-        self.sup_xref.select_two_accounts("OHIOHVAC", "PLYMOUTH")
+        self.sup_xref.select_all_accounts()
 
         """ Add LOC_3 """
         self.loc.click_add_location_btn()
@@ -128,14 +119,11 @@ class TestForeignBVMultiLocationsMultiLogons(unittest.TestCase):
 
         # Add Procurement Options
         self.loc.click_procurement_link()
-        self.procurement.change_ordering_address("2")
-        self.procurement.change_returning_address("2")
-        self.procurement.change_ship_from_address("2")
         self.procurement.select_payment_terms_id("NET90")
 
         # Add Branch Vendor(s)
         self.loc.click_fei_trilogie_xref_link()
-        self.sup_xref.select_two_accounts("SACRAMENTO", "SANTAROSAWW")
+        self.sup_xref.select_all_accounts()
 
         """ Save record """
         self.loc.click_save_btn()

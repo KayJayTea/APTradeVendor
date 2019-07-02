@@ -63,27 +63,21 @@ class TestCreateForeignMV(unittest.TestCase):
 
         """ FOREIGN CORPORATE INFORMATION """
         self.id_info.click_address_tab()
-        self.clean_addr.clean_germany_address("GERMANY", "Corporate Info")
+        self.clean_addr.clean_china_address("CHINA", "Corporate Info")
         self.addr.enter_email_id()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
-        """ FOREIGN REMIT ADDRESS """
-        self.addr.click_add_new_address_btn()
-        self.clean_addr.clean_french_address("FRANCE", "Remit")
-        self.addr.enter_email_id()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
-
-        """ FOREIGN TRILOGIE PO ADDRESS """
-        self.addr.click_add_new_address_btn()
-        self.clean_addr.clean_australian_address("AUSTRALIA", "Trilogie PO Address")
-        self.addr.enter_email_id()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        # """ FOREIGN REMIT ADDRESS """
+        # self.addr.click_add_new_address_btn()
+        # self.clean_addr.clean_french_address("FRANCE", "Remit")
+        # self.addr.enter_email_id()
+        # self.addr.enter_all_phone_types()
+        #
+        # """ FOREIGN TRILOGIE PO ADDRESS """
+        # self.addr.click_add_new_address_btn()
+        # self.clean_addr.clean_australian_address("AUSTRALIA", "Trilogie PO Address")
+        # self.addr.enter_email_id()
+        # self.addr.enter_all_phone_types()
 
         """ ADD LOCATIONS """
         self.addr.click_location_tab()
@@ -111,30 +105,30 @@ class TestCreateForeignMV(unittest.TestCase):
         result_1 = self.lp.verify_title_of_log_out_page()
         self.ts.mark(result_1, "Successfully Signed Out of Application.\n")
 
-    @pytest.mark.run(order=4)
-    @data(("AUTOTEST4", "Psoft1234!"))
-    @unpack
-    def test_adding_bank_account_data(self, username, password):
-        self.lp.login(username, password)
-        result_1 = self.lp.verify_title()
-        self.ts.mark(result_1, "Title is CORRECT\n")
-
-        self.nav.navigate_to_supplier_info()
-
-        self.driver.switch_to.frame("ptifrmtgtframe")
-
-        self.sup_info_fev.search_for_supplier("0002000006")
-
-        self.summary.click_correct_history_btn()
-        self.summary.click_location_tab()
-
-        self.loc.click_payables_link()
-        self.payable_options.enter_and_save_supplier_bank_account_details()
-
-        """ Preview Audit, Enter Reason Codes/Comments and Finalize """
-        self.preview.close_preview_supplier_audit_window_ok()
-
-        result_1 = self.lp.verify_title_of_log_out_page()
-        # self.ts.mark(result_1, "Successfully Signed Out of Application.\n")
-        self.ts.mark_final("Test Create Master Vendor", result_1,
-                           "Successfully added Banking Information to Master Vendor.\n")
+    # @pytest.mark.run(order=4)
+    # @data(("AUTOTEST4", "Psoft1234!"))
+    # @unpack
+    # def test_adding_bank_account_data(self, username, password):
+    #     self.lp.login(username, password)
+    #     result_1 = self.lp.verify_title()
+    #     self.ts.mark(result_1, "Title is CORRECT\n")
+    #
+    #     self.nav.navigate_to_supplier_info()
+    #
+    #     self.driver.switch_to.frame("ptifrmtgtframe")
+    #
+    #     self.sup_info_fev.search_for_supplier("0002000006")
+    #
+    #     self.summary.click_correct_history_btn()
+    #     self.summary.click_location_tab()
+    #
+    #     self.loc.click_payables_link()
+    #     self.payable_options.enter_and_save_supplier_bank_account_details()
+    #
+    #     """ Preview Audit, Enter Reason Codes/Comments and Finalize """
+    #     self.preview.close_preview_supplier_audit_window_ok()
+    #
+    #     result_1 = self.lp.verify_title_of_log_out_page()
+    #     # self.ts.mark(result_1, "Successfully Signed Out of Application.\n")
+    #     self.ts.mark_final("Test Create Master Vendor", result_1,
+    #                        "Successfully added Banking Information to Master Vendor.\n")

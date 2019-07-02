@@ -3,9 +3,56 @@
   <component name="ChangeListManager">
     <list default="true" id="9cd3f090-8174-4f63-81f9-4beec9932aff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/webdriver_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriver_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/clean_address_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/clean_address_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/identifying_information_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/identifying_information_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/location_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/location_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Login Failed!.1557760377.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Login Failed!.1557760548.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Login Failed!.1557760781.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1555530129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1555530749.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1556654998.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1556655046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1556744806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557161875.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557162319.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557162536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557162750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557349049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557408955.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557409493.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557410557.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557410720.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557411155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557411281.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557411473.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557411587.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557412003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557416318.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557416672.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557435418.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557439015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557516363.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Successfully Signed Out of Application..1557760551.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1556727088.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1556742213.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1556745815.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1557321990.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1557440315.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1557865739.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is CORRECT.1560345221.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is incorrect.1556655608.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Title is incorrect.1557770381.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_multi_loc_multi_logons_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_multi_loc_multi_logons_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/create_master_vendor/clean_address_mv_foreign_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_master_vendor/clean_address_mv_foreign_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/create_master_vendor/mv_domestic_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_master_vendor/mv_domestic_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +60,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VMDM-PeopleSoft" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/mv_domestic_test.py">
+        <entry file="file://$PROJECT_DIR$/pages/clean_address_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+            <state relative-caret-position="239">
+              <caret line="250" column="58" selection-start-line="250" selection-start-column="43" selection-end-line="250" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -30,8 +92,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/identifying_information_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6842">
-              <caret line="325" column="31" selection-start-line="325" selection-start-column="31" selection-end-line="325" selection-end-column="31" />
+            <state relative-caret-position="348">
+              <caret line="332" lean-forward="true" selection-start-line="332" selection-end-line="332" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/address_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/location_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -40,19 +126,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base/webdriver_factory.py">
+        <entry file="file://$PROJECT_DIR$/popup_windows/procurement_options_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="1298">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py">
+        <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            <state relative-caret-position="1166">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -61,10 +150,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/clean_address_page.py">
+        <entry file="file://$PROJECT_DIR$/popup_windows/supplier_xref_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5720">
-              <caret line="272" column="48" selection-start-line="272" selection-start-column="48" selection-end-line="272" selection-end-column="48" />
+            <state relative-caret-position="682">
+              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -73,35 +162,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/navigator_page.py">
+        <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popup_windows/preview_supplier_audit_window.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="1100">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#829#1553#0" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popup_windows/payables_options_window.py">
+        <entry file="file://$PROJECT_DIR$/base/webdriver_factory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3564">
-              <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="946">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -128,6 +204,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="d03d8b9b86e0c9053a3515b076602cfb23fa057d" />
+      </map>
+    </option>
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="278d91eb-0d5f-4826-bf41-67b1bef1543f" />
@@ -137,8 +218,6 @@
       <list>
         <option value="$PROJECT_DIR$/tests/vmdm_practice/misc_tests.py" />
         <option value="$PROJECT_DIR$/base/selenium_driver.py" />
-        <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py" />
-        <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py" />
         <option value="$PROJECT_DIR$/automation.log" />
         <option value="$PROJECT_DIR$/pages/contacts_page.py" />
         <option value="$PROJECT_DIR$/pages/login_page.py" />
@@ -151,27 +230,30 @@
         <option value="$PROJECT_DIR$/popup_windows/supplier_xref_window.py" />
         <option value="$PROJECT_DIR$/popup_windows/look_up_country_window.py" />
         <option value="$PROJECT_DIR$/popup_windows/procurement_options_window.py" />
-        <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_multi_loc_multi_logons_test.py" />
-        <option value="$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py" />
         <option value="$PROJECT_DIR$/popup_windows/payables_options_window.py" />
-        <option value="$PROJECT_DIR$/pages/location_page.py" />
         <option value="$PROJECT_DIR$/popup_windows/preview_supplier_audit_window.py" />
         <option value="$PROJECT_DIR$/pages/navigator_page.py" />
         <option value="$PROJECT_DIR$/pages/add_new_value_page.py" />
         <option value="$PROJECT_DIR$/pages/address_page.py" />
+        <option value="$PROJECT_DIR$/tests/create_master_vendor/clean_address_mv_foreign_test.py" />
+        <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_multi_loc_multi_logons_test.py" />
+        <option value="$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py" />
         <option value="$PROJECT_DIR$/tests/create_master_vendor/mv_domestic_test.py" />
-        <option value="$PROJECT_DIR$/pages/identifying_information_page.py" />
-        <option value="$PROJECT_DIR$/pages/clean_address_page.py" />
         <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py" />
         <option value="$PROJECT_DIR$/base/webdriver_factory.py" />
+        <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py" />
+        <option value="$PROJECT_DIR$/pages/clean_address_page.py" />
+        <option value="$PROJECT_DIR$/pages/identifying_information_page.py" />
+        <option value="$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py" />
+        <option value="$PROJECT_DIR$/pages/location_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1725" />
-    <option name="y" value="-106" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="1912" />
+    <option name="y" value="-280" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,11 +269,26 @@
               <item name="VMDM-PeopleSoft" type="b2602c69:ProjectViewProjectNode" />
               <item name="VMDM-PeopleSoft" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VMDM-PeopleSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VMDM-PeopleSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="popup_windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VMDM-PeopleSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VMDM-PeopleSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VMDM-PeopleSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VMDM-PeopleSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="create_branch_vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,6 +314,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="pytest in bv_dom_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="VMDM-PeopleSoft" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/create_branch_vendor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in bv_dom_test.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -234,8 +354,26 @@
       <option name="project" value="LOCAL" />
       <updated>1560535763059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="19 June 2019">
+      <created>1560967299358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560967299358</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_bv_dom_test_py - 2019.06.21 at 13h 16m 08s.xml">
+      <configuration name="pytest in bv_dom_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_bv_dom_test_py - 2019.06.21 at 13h 16m 26s.xml">
+      <configuration name="pytest in bv_dom_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_bv_dom_test_py - 2019.06.21 at 13h 16m 44s.xml">
+      <configuration name="pytest in bv_dom_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,31 +385,71 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-280" width="1696" height="1036" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1601686" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.17732207" />
+      <window_info id="Structure" order="1" sideWeight="0.5005192" side_tool="true" weight="0.15542677" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.15542677" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32779622" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" visible="true" weight="0.32779622" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50052685" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.7228662" visible="true" weight="0.26152197" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7228662" weight="0.4152824" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="14 June 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="14 June 2019" />
+    <MESSAGE value="19 June 2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="19 June 2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/__init__.py">
@@ -309,9 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Title is CORRECT.1556727088.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/Title is CORRECT.1556727088.png" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
@@ -325,26 +501,6 @@
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="e#176#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2728">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -369,10 +525,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invalid_password.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -438,42 +594,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popup_windows/procurement_options_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/popup_windows/look_up_country_window.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_for_multi_loc_multi_logons_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="62" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,39 +614,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popup_windows/supplier_xref_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/location_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automation.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="-1491" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/add_new_value_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/find_existing_value_page.py">
@@ -533,66 +629,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/address_page.py">
+    <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/clean_address_mv_foreign_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="209" column="47" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/mv_domestic_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+        <state relative-caret-position="454">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/identifying_information_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6842">
-          <caret line="325" column="31" selection-start-line="325" selection-start-column="31" selection-end-line="325" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/clean_address_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5720">
-          <caret line="272" column="48" selection-start-line="272" selection-start-column="48" selection-end-line="272" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/navigator_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
+        <state relative-caret-position="465">
           <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/popup_windows/preview_supplier_audit_window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="465">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -603,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/popup_windows/payables_options_window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3564">
+        <state relative-caret-position="465">
           <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -611,10 +667,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/add_new_value_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/mv_domestic_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_for_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup_windows/supplier_xref_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_master_vendor/mv_foreign_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base/webdriver_factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="946">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/address_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_for_multi_loc_multi_logons_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/clean_address_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="250" column="58" selection-start-line="250" selection-start-column="43" selection-end-line="250" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/identifying_information_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="332" lean-forward="true" selection-start-line="332" selection-end-line="332" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_branch_vendor/bv_dom_multi_loc_multi_logons_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/location_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup_windows/procurement_options_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

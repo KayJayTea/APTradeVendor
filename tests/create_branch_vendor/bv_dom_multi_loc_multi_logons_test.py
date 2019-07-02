@@ -47,7 +47,7 @@ class TestDomesticBVMultiLocationsMultiLogons(unittest.TestCase):
 
     @pytest.mark.run(order=2)
     # @data((os.environ.get('PSFT_USER_ID'), os.environ.get('PSFT_USER_PWD')))
-    @data(("AUTOTEST3", "Psoft1234$"))
+    @data(("AUTOTEST3", "Psoft1234!"))
     @unpack
     def test_domestic_master_and_branch_vendor_creation_multi_loc_multi_logon(self, username, password):
         # Login into PeopleSoft with CREATOR credentials
@@ -86,14 +86,11 @@ class TestDomesticBVMultiLocationsMultiLogons(unittest.TestCase):
 
         # Add Procurement Options
         self.loc.click_procurement_link()
-        self.procurement.change_ordering_address("3")
-        self.procurement.change_returning_address("3")
-        self.procurement.change_ship_from_address("3")
         self.procurement.select_payment_terms_id("NET30")
 
         # Add Branch Vendor(s)
-        # self.loc.click_fei_trilogie_xref_link()
-        # self.sup_xref.select_two_accounts("HOUSTONWW", "LAHVAC")
+        self.loc.click_fei_trilogie_xref_link()
+        self.sup_xref.select_all_accounts()
 
         """ Add LOC_2 """
         self.loc.click_add_location_btn()
@@ -104,8 +101,8 @@ class TestDomesticBVMultiLocationsMultiLogons(unittest.TestCase):
         self.procurement.select_payment_terms_id("NET60")
 
         # Add Branch Vendor(s)
-        # self.loc.click_fei_trilogie_xref_link()
-        # self.sup_xref.select_two_accounts("OHIOHVAC", "PLYMOUTH")
+        self.loc.click_fei_trilogie_xref_link()
+        self.sup_xref.select_all_accounts()
 
         """ Add LOC_3 """
         self.loc.click_add_location_btn()
@@ -113,28 +110,25 @@ class TestDomesticBVMultiLocationsMultiLogons(unittest.TestCase):
 
         # Add Procurement Options
         self.loc.click_procurement_link()
-        self.procurement.change_ordering_address("2")
-        self.procurement.change_returning_address("2")
-        self.procurement.change_ship_from_address("2")
         self.procurement.select_payment_terms_id("NET90")
 
         # Add Branch Vendor(s)
-        # self.loc.click_fei_trilogie_xref_link()
-        # self.sup_xref.select_two_accounts("SACRAMENTO", "SANTAROSAWW")
+        self.loc.click_fei_trilogie_xref_link()
+        self.sup_xref.select_all_accounts()
 
         """ Save record """
-        # self.loc.click_save_btn()
-        # self.loc.click_summary_tab()
-        # self.summary.get_supplier_id()
-        #
-        # self.summary.search_for_created_supplier()
-        #
-        # result2 = self.summary.verify_supplier_id_created()
-        # self.ts.mark(result2, "Successfully Created Foreign Master Vendor.\n")
+        self.loc.click_save_btn()
+        self.loc.click_summary_tab()
+        self.summary.get_supplier_id()
 
-    # @pytest.mark.run(order=3)
-    # def test_sign_out(self):
-    #     self.summary.sign_out_summary_page()
-    #
-    #     result = self.lp.verify_title_of_log_out_page()
-    #     self.ts.mark_final("Test Create Master and Branch Vendor", result, "Successfully Signed Out of Application.")
+        self.summary.search_for_created_supplier()
+
+        result2 = self.summary.verify_supplier_id_created()
+        self.ts.mark(result2, "Successfully Created Foreign Master Vendor.\n")
+
+    @pytest.mark.run(order=3)
+    def test_sign_out(self):
+        self.summary.sign_out_summary_page()
+
+        result = self.lp.verify_title_of_log_out_page()
+        self.ts.mark_final("Test Create Master and Branch Vendor", result, "Successfully Signed Out of Application.")

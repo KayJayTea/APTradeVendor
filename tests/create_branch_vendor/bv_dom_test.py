@@ -65,28 +65,21 @@ class TestDomesticBV(unittest.TestCase):
         """ REMIT INFORMATION """
         self.id_info.click_address_tab()
         self.addr.enter_domestic_master_vendor_address("Remit")
-        # self.clean_addr.clean_canadian_address()
         self.addr.enter_email_id()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
         """ CORPORATE ADDRESS """
         self.addr.click_add_new_address_btn()
         self.addr.enter_domestic_master_vendor_address("Corporate Info")
         # self.clean_addr.clean_australian_address()
         self.addr.enter_email_id()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
         """ TRILOGIE PO ADDRESS """
         self.addr.click_add_new_address_btn()
         self.addr.enter_domestic_master_vendor_address("Trilogie PO Address")
         self.addr.enter_email_id()
-        self.addr.enter_business_phone()
-        self.addr.enter_fax()
-        self.addr.enter_trilogie_dm_fax()
+        self.addr.enter_all_phone_types()
 
         """ LOCATIONS PAGE """
         # Add a location
@@ -99,7 +92,7 @@ class TestDomesticBV(unittest.TestCase):
 
         # Add Branch Vendor(s)
         self.loc.click_fei_trilogie_xref_link()
-        self.sup_xref.select_random_account()
+        self.sup_xref.select_one_account("LAHVAC")
 
         """ SAVE RECORD """
         self.loc.click_save_btn()
